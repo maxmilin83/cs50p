@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="login">
+    <form method="post" action="/success">
+        <div class="form-group">
+            <h1 class="text-center">Last step...</h1>
+            <label for="playlistName" class="form-label">Enter playlist name (English characters no numbers)</label>
+            <input class="form-control" type="text" name="playlistName" placeholder="Playlist name..." autocomplete="off">
+        </div>
+
+        <div class="form-group">
+            <input class="btn btn-success w-100" type="Submit" value="Create playlist">
+        </div>
+    </form>
+</div>
+
+<br>
+<br>
+<h4 style="text-align:center; position:absolute; bottom: 8px; left:45%; margin:auto; color:white; justify-content-center;">CS50 Final Project </h4>
+{% endblock %}

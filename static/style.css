@@ -1,0 +1,49 @@
+
+body
+{
+    background-color:#5ad17a;
+}
+.login
+{
+    height:90vh;
+    background: linear-gradient(to top,#BF703B,#ffcead);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.login form
+{
+    width: 360px;
+    height: min-content;
+    padding:20px;
+    border-radius: 12px;
+    background:#ffffff;
+    font-size: 19px;
+}
+.login h1
+{
+    font-size: 34px;
+    margin-bottom:25px;
+}
+.login form .form-group
+{
+    margin-bottom: 12px;
+}
+
+.login form label
+{
+    margin-top:22px;
+    margin-bottom:22px;
+    text-align: center;
+    justify-content:center;
+    display:flex;
+    color:#757575;
+}
+
+.login form input[type='submit'] {
+    font-size: 21px;
+    margin-top: 15px;
+}

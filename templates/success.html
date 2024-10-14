@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<br>
+
+<div style="margin:15px">
+    <h2>Playlist created with the name '{{name}}'</h2>
+    <br>
+
+    <h3 style="color:#545454;">Songs added</h3>
+
+    {% for song in songs %}
+        <ul>
+            <li spacing="compact">{{song}}</li>
+        </ul>
+    {% endfor %}
+</div>
+
+{% endblock %}
