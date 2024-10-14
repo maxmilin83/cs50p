@@ -1,4 +1,5 @@
 # Syncify
+#### Date Completed : April 2023
 #### Description:
 
 I had a few ideas to implement this project, it was a windows 10 app , a discord bot, or a website
